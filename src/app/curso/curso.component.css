@@ -1,0 +1,38 @@
+@font-face {
+    font-family: Poppins;
+    src: url(../../assets/Poppins-Regular.ttf);
+}
+
+html, body {
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    font-family: Poppins;
+    background-color: #262626;
+    color: #fafafa;
+}
+
+ol {
+    list-style-type: circle;
+}
+
+.content {
+    width: 50rem;
+}
+
+.content h1 {
+    color: #68DAAF;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+}
+
+hr {
+    border: solid 1px #68DAAF;
+}
